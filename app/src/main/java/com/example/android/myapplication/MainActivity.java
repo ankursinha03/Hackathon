@@ -267,27 +267,27 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id) {
 
 
-        if (spnAction[position]=="Cut"){
+        if (spnAction[position].equals("Cut")){
             //Cut
             Cut();
         }
-        if (spnAction[position]=="Copy"){
+        if (spnAction[position].equals("Copy")){
             //Copy
             Copy();
         }
-        if (spnAction[position]=="Paste"){
+        if (spnAction[position].equals("Paste")){
             //Paste
             Paste();
         }
-        if (spnAction[position]=="New Folder"){
+        if (spnAction[position].equals("New Folder")){
             //New Folder
             NewFolder();
         }
-        if (spnAction[position]=="Delete"){
+        if (spnAction[position].equals("Delete")){
             //Delete
             Delete();
         }
-        if (spnAction[position]=="Rename"){
+        if (spnAction[position].equals("Rename")){
             //Rename
             Rename();
         }
